@@ -52,7 +52,10 @@ function updateSelectedVersion(){
   name.textContent=selectedVersion?selectedVersion.name:"No versions";
   icon.src=selectedVersion?selectedVersion.icon:"";
   document.getElementById("selectedVersionCategory").textContent=selectedVersion?"Web Edition":"No versions available";
-  document.getElementById("playButton").disabled=!selectedVersion;
+  const play=document.getElementById("playButton");
+  play.href=selectedVersion?selectedVersion.url:"#";
+  play.setAttribute("aria-disabled",String(!selectedVersion));
+  play.style.pointerEvents=selectedVersion?"auto":"none";
 }
 document.querySelectorAll("[data-category]").forEach(item=>item.addEventListener("click",()=>{
   selectedCategory=item.dataset.category;
@@ -68,9 +71,6 @@ document.querySelectorAll("[data-category]").forEach(item=>item.addEventListener
 dropdown.addEventListener("click",()=>{
   menu.hidden=!menu.hidden;
   dropdown.setAttribute("aria-expanded",String(!menu.hidden));
-});
-document.getElementById("playButton").addEventListener("click",()=>{
-  if(selectedVersion) window.location.href=selectedVersion.url;
 });
 document.addEventListener("click",event=>{
   if(!event.target.closest(".versionSelector")){
