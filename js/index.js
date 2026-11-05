@@ -100,6 +100,7 @@ document.addEventListener("click", event => {
 // Keep the category list available for future versions without changing its UI.
 categoryItems.forEach(item => {
   item.addEventListener("click", () => {
+    if (typeof closeInfoPage === "function") closeInfoPage();
     activeCategory = item.dataset.category;
     renderDropdown();
     menu.hidden = true;
