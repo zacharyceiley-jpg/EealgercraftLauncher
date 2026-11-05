@@ -997,4 +997,80 @@ Format: object with fields:
 
 ## Fixed bugs in 26.2
 
-- [MC-1788](https://bugs.mojang.com/browse/MC-1788) - Ocelots do not spawn naturally on Peaceful difficulty in jungles and bamboo jungles
+- [MC-1788](https://bugs.mojang.com/browse/MC-1788) - Ocelots do not spawn naturally on Peaceful difficulty in jungles and bamboo jungles- [MC-123068](https://bugs.mojang.com/browse/MC-123068) - The number of advancements said to be revoked from the player is incorrect
+- [MC-134349](https://bugs.mojang.com/browse/MC-134349) - Making a zoomed-out version of a map fails when using the "Pick Block" key
+- [MC-174630](https://bugs.mojang.com/browse/MC-174630) - The secondary beacon effect remains when switching the primary effect
+- [MC-186131](https://bugs.mojang.com/browse/MC-186131) - Piglins and hoglins cannot spawn naturally on Peaceful difficulty
+- [MC-190728](https://bugs.mojang.com/browse/MC-190728) - The side and bottom surfaces of waterlogged blocks z-fight when looking at them from a distance
+- [MC-223248](https://bugs.mojang.com/browse/MC-223248) - Spore blossom particles gradually disappear/lessen until the world is reloaded
+- [MC-229057](https://bugs.mojang.com/browse/MC-229057) - Picking up an axolotl with a lead attached destroys the lead
+- [MC-236770](https://bugs.mojang.com/browse/MC-236770) - The "Ambient" and "Axolotl" mob caps both display as "A" in the debug overlay
+- [MC-248758](https://bugs.mojang.com/browse/MC-248758) - Logged error: Detected setBlock in a far chunk
+- [MC-252814](https://bugs.mojang.com/browse/MC-252814) - The clamp density function takes a direct input and doesn't allow a reference
+- [MC-268008](https://bugs.mojang.com/browse/MC-268008) - Players' sneaking state can sometimes desync
+- [MC-269520](https://bugs.mojang.com/browse/MC-269520) - The game freezes when using /locate in a world without structures enabled
+- [MC-269786](https://bugs.mojang.com/browse/MC-269786) - "ID" is not capitalized in some strings
+- [MC-271008](https://bugs.mojang.com/browse/MC-271008) - Unused pixels in bed textures
+- [MC-276733](https://bugs.mojang.com/browse/MC-276733) - Bed items produce wool particles, but bed blocks produce planks particles
+- [MC-277395](https://bugs.mojang.com/browse/MC-277395) - The options.screenEffectScale.tooltip string displayed when holding your mouse cursor over the "Distortion Effects" slider is improperly capitalized
+- [MC-277396](https://bugs.mojang.com/browse/MC-277396) - Strings referencing nether portals are inconsistently capitalized
+- [MC-277487](https://bugs.mojang.com/browse/MC-277487) - The game softlocks when attempting to create a new world if the saves folder is not writable
+- [MC-279122](https://bugs.mojang.com/browse/MC-279122) - Some strings that contain the abbreviation "id" are improperly capitalized
+- [MC-279125](https://bugs.mojang.com/browse/MC-279125) - Some "/locate" strings are missing articles before the word "reasonable"
+- [MC-279126](https://bugs.mojang.com/browse/MC-279126) - The mco.configure.world.restore.download.question.line1 string incorrectly spells the word "singleplayer" as "single player"
+- [MC-279137](https://bugs.mojang.com/browse/MC-279137) - The options.directionalAudio.on.tooltip string is missing a hyphen between the words "HRTF" and "compatible"
+- [MC-279138](https://bugs.mojang.com/browse/MC-279138) - The command.failed string is missing a conjunction
+- [MC-279154](https://bugs.mojang.com/browse/MC-279154) - The advancements.story.enter_the_nether.description string is missing a serial comma
+- [MC-279156](https://bugs.mojang.com/browse/MC-279156) - The titles within some player reporting and punishment menus are improperly capitalized
+- [MC-279158](https://bugs.mojang.com/browse/MC-279158) - The "I know what I'm doing!" button is improperly capitalized
+- [MC-279182](https://bugs.mojang.com/browse/MC-279182) - Strings used to describe water and lava conversion game rules are missing commas
+- [MC-279183](https://bugs.mojang.com/browse/MC-279183) - The options.allowServerListing.tooltip string is missing a comma
+- [MC-279184](https://bugs.mojang.com/browse/MC-279184) - The datapackFailure.title string is missing an article and always pluralizes the word "pack"
+- [MC-279186](https://bugs.mojang.com/browse/MC-279186) - The build.tooHigh string is missing an article before the word "Height"
+- [MC-279189](https://bugs.mojang.com/browse/MC-279189) - The mco.configure.world.leave.question.line1 string is missing a comma
+- [MC-296343](https://bugs.mojang.com/browse/MC-296343) - Using the mouse wheel to switch between cast fishing rods briefly displays the uncast texture in first-person
+- [MC-297491](https://bugs.mojang.com/browse/MC-297491) - Glyphs from TTF files are no longer rendered correctly on glow signs
+- [MC-301325](https://bugs.mojang.com/browse/MC-301325) - Menu music starts for a brief moment during the creation of a new world
+- [MC-301761](https://bugs.mojang.com/browse/MC-301761) - Elements within the Realms “Players” tab all move down slightly when the “Invited” element is selected using the TAB key
+- [MC-302144](https://bugs.mojang.com/browse/MC-302144) - Players respawn inside the bottom bedrock layers when the world spawn point is set in the Nether
+- [MC-302268](https://bugs.mojang.com/browse/MC-302268) - Running multiple commands quickly kicks the player for spamming in multiplayer
+- [MC-302488](https://bugs.mojang.com/browse/MC-302488) - Strings that contain the term "Safe Mode" are inconsistently capitalized
+- [MC-302496](https://bugs.mojang.com/browse/MC-302496) - Glowing dragon fireballs no longer show the glowing outline
+- [MC-302554](https://bugs.mojang.com/browse/MC-302554) - Glowing falling blocks no longer show the glowing outline
+- [MC-302628](https://bugs.mojang.com/browse/MC-302628) - Dolphins don't dismount minecarts when passing over activator rails
+- [MC-303401](https://bugs.mojang.com/browse/MC-303401) - Using the "Pick Block" key on maps with map_post_processing from a cartography table in Creative mode causes the game to crash
+- [MC-304113](https://bugs.mojang.com/browse/MC-304113) - Underwater fog is not applied correctly at low render distances
+- [MC-304862](https://bugs.mojang.com/browse/MC-304862) - Activating a dispenser with a hostile mob spawn egg in Peaceful difficulty consumes the egg and plays a sound
+- [MC-304873](https://bugs.mojang.com/browse/MC-304873) - The options.textureFiltering.rgss.tooltip string is missing a hyphen between the words "shader" and "based"
+- [MC-304874](https://bugs.mojang.com/browse/MC-304874) - The options.textureFiltering.anisotropic.tooltip string is missing a hyphen between the words "hardware" and "based"
+- [MC-305182](https://bugs.mojang.com/browse/MC-305182) - Textures far away from the player sometimes have black spots (with certain resource packs)
+- [MC-305239](https://bugs.mojang.com/browse/MC-305239) - Growing world borders reset to their starting size upon reopening the world
+- [MC-305467](https://bugs.mojang.com/browse/MC-305467) - The ender dragon's death animation effects render in front of worn armor
+- [MC-305475](https://bugs.mojang.com/browse/MC-305475) - Tripwire above the player's head gets triggered twice when jumping
+- [MC-306064](https://bugs.mojang.com/browse/MC-306064) - Mobs can be forced to look like they're dying while they aren't by using commands
+- [MC-306399](https://bugs.mojang.com/browse/MC-306399) - The Spectator mode "Teleport to Player" action only updates the list of valid targets after the Spectator mode menu is hidden
+- [MC-306401](https://bugs.mojang.com/browse/MC-306401) - Shulkers' name tags display inside them when they're open
+- [MC-306460](https://bugs.mojang.com/browse/MC-306460) - The game window is one pixel too tall in fullscreen mode
+- [MC-306622](https://bugs.mojang.com/browse/MC-306622) - The height of chicken jockeys is slightly off
+- [MC-306673](https://bugs.mojang.com/browse/MC-306673) - The color of sleeping baby snow foxes' eyes is inconsistent with their adult variant
+- [MC-306685](https://bugs.mojang.com/browse/MC-306685) - The riding position on baby hoglins is too low
+- [MC-306726](https://bugs.mojang.com/browse/MC-306726) - Transparent blocks flicker as the camera is moved
+- [MC-306738](https://bugs.mojang.com/browse/MC-306738) - Blocks sometimes remain visible after breaking
+- [MC-306750](https://bugs.mojang.com/browse/MC-306750) - The texture of snifflets contains unused pixels
+- [MC-306840](https://bugs.mojang.com/browse/MC-306840) - Dolphins still drown themselves when no players are nearby
+- [MC-306890](https://bugs.mojang.com/browse/MC-306890) - Campfires cause bees to work much more slowly
+- [MC-306903](https://bugs.mojang.com/browse/MC-306903) - Cubic Bézier easing functions sometimes produce wrong values
+- [MC-306946](https://bugs.mojang.com/browse/MC-306946) - The block light transition from level 1 to 0 under the night sky is not smooth when Smooth Lighting is enabled
+- [MC-306962](https://bugs.mojang.com/browse/MC-306962) - The "Take Screenshot" key bind doesn't work when set to a mouse button
+- [MC-306972](https://bugs.mojang.com/browse/MC-306972) - Wardens repeatedly roar in place when detecting ghasts
+- [MC-307002](https://bugs.mojang.com/browse/MC-307002) - Using /kill on one of the end crystals used to respawn the ender dragon no longer aborts the respawn sequence
+- [MC-307008](https://bugs.mojang.com/browse/MC-307008) - Severe framerate drops since 26.1
+- [MC-307012](https://bugs.mojang.com/browse/MC-307012) - When a scoreboard objective is set to the below_name display mode, all named entities with no score display it with a score of 0
+- [MC-307043](https://bugs.mojang.com/browse/MC-307043) - Applying a freeze effect while damaging a mob causes an incorrect value for ticks_since_last_hurt_by_mob
+- [MC-307054](https://bugs.mojang.com/browse/MC-307054) - Bone meal can no longer be applied to sweet berry bushes with a block above them
+- [MC-307125](https://bugs.mojang.com/browse/MC-307125) - Target selectors with duplicate team arguments are parsed inconsistently depending on argument order
+- [MC-307144](https://bugs.mojang.com/browse/MC-307144) - The game reads world generation data from data packs or world_gen_settings.dat inconsistently, preventing updating large biome sources
+- [MC-307159](https://bugs.mojang.com/browse/MC-307159) - Using bone meal from the main hand simultaneously places a block held in the off hand
+- [MC-307418](https://bugs.mojang.com/browse/MC-307418) - The game crashes when trying to upgrade a legacy world
+- [MC-307690](https://bugs.mojang.com/browse/MC-307690) - The error message produced by /difficulty doesn't use the difficulty's translated name
+- [MC-307877](https://bugs.mojang.com/browse/MC-307877) - Bone meal cannot be used on dry grass with a block directly above it
