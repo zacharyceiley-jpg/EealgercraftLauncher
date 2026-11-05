@@ -29,8 +29,14 @@ const selectedName = document.getElementById("selectedVersionName");
 const selectedIcon = document.getElementById("selectedVersionIcon");
 const selectedCategory = document.getElementById("selectedVersionCategory");
 const playLink = document.getElementById("playButton");
+playLink.target = "_blank";
+playLink.rel = "noopener noreferrer";
 let activeCategory = "web";
 let activeVersion = versions.web[0];
+
+playLink.addEventListener("click", event => {
+  if (!activeVersion) event.preventDefault();
+});
 
 function setVersion(version) {
   activeVersion = version || null;
