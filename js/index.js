@@ -12,6 +12,10 @@ const versions = {
     name: "1.8.8",
     url: "https://unblockedgames88.gitlab.io/e1/eaglercraft188/",
     icon: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e6/GuardianFace.png/revision/latest?cb=20200223055028"
+  }, {
+    name: "BETA",
+    url: "https://minecraft-eaglercraft.github.io/go/minecraft-beta/",
+    icon: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/05/HumanFace.png/revision/latest?cb=20110727224631"
   }],
   modded: [],
   mobile: [],
