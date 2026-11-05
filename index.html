@@ -23,5 +23,24 @@
 <header class="gameHeader"><p id="categoryTitle" class="currentGame bolded">EAGLERCRAFT WEB EDITION</p>
 <ul class="gameTabs"><li class="headerButtonSelected">Play</li><li class="headerButtons">DLC</li><li class="headerButtons">FAQ</li><li class="headerButtons">Installations</li><li class="headerButtons">Skins</li><li class="headerButtons">Patch Notes</li></ul></header>
 <section id="game-bg" class="gameBg"><div class="gameLogo"><img src="https://raw.githubusercontent.com/zacharyceiley-jpg/EalgerLauncher/main/images/web-title.png" alt="Eaglercraft"></div></section>
-<section class="emptyState"><div class="emptyStateInner"><h2 id="emptyTitle">No versions added yet</h2><p>Game versions will appear here when their redirect links are added.</p></div></section>
+<section class="gameSelection" id="gameSelection">
+  <div class="versionSelector">
+    <button class="dropdownSelector" id="versionDropdown" type="button" aria-expanded="false">
+      <span class="dropdownOption">
+        <img id="selectedVersionIcon" src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/c3/Expressionless_Sulfur_Face.png/revision/latest/scale-to-width-down/62?cb=20260415024809" alt="" width="32" height="32">
+        <span class="dropdownOptionText"><strong id="selectedVersionName">26.2</strong><small id="selectedVersionCategory">Web Edition</small></span>
+      </span>
+      <span class="dropdownChevron">⌄</span>
+    </button>
+    <div class="dropdownMenu" id="versionMenu" hidden>
+      <button class="dropdownOptions" type="button" data-version="26.2">
+        <span class="dropdownOption">
+          <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/c3/Expressionless_Sulfur_Face.png/revision/latest/scale-to-width-down/62?cb=20260415024809" alt="" width="32" height="32">
+          <span class="dropdownOptionText"><strong>26.2</strong><small>Web Edition</small></span>
+        </span>
+      </button>
+    </div>
+  </div>
+  <button class="playButton" id="playButton" type="button" aria-label="Play Eaglercraft 26.2"></button>
+</section>
 </main><script src="./js/index.js"></script></body></html>
