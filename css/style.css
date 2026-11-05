@@ -517,3 +517,32 @@ html, body, body *, body *::before, body *::after {
     padding: 1rem .75rem 3rem;
   }
 }
+
+
+/* Keep the bottom game bar controls centered in the available content area. */
+.gameSelection {
+  left: 15rem !important;
+  right: 0 !important;
+  width: auto !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.gameSelection .playButton {
+  position: absolute !important;
+  left: 50% !important;
+  right: auto !important;
+  bottom: auto !important;
+  margin: 0 !important;
+  transform: translateX(-50%) !important;
+}
+.gameSelection .playButton:hover {
+  transform: translateX(-50%) scale(1.05) !important;
+}
+.gameSelection .versionSelector {
+  left: 1rem !important;
+}
+@media (max-width: 1100px) {
+  .gameSelection { left: 4.5rem !important; }
+  .gameSelection .versionSelector { left: .5rem !important; }
+}
