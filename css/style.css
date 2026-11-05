@@ -546,3 +546,23 @@ html, body, body *, body *::before, body *::after {
   .gameSelection { left: 4.5rem !important; }
   .gameSelection .versionSelector { left: .5rem !important; }
 }
+
+
+/* The bar is inside .mainPage, which already starts after the sidebar.
+   Do not add the sidebar width again: that was shifting the whole bar. */
+.gameSelection {
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+}
+.gameSelection .playButton {
+  left: 50% !important;
+  margin-left: 0 !important;
+}
+@media (max-width: 1100px) {
+  .gameSelection {
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+  }
+}
