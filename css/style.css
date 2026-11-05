@@ -430,3 +430,13 @@ div {
 .playButton{position:relative;left:auto;bottom:auto;margin-left:18rem;width:220px;height:58px;border:0;cursor:pointer}
 .playButton:disabled{opacity:.45;cursor:not-allowed}
 @media(max-width:1100px){.gameSelection{left:4.5rem}.versionSelector{left:.5rem}.dropdownSelector{width:12rem}.dropdownMenu{width:12rem}.playButton{margin-left:13rem;width:170px;height:52px}}
+
+/* Ensure the background artwork never intercepts controls. */
+#game-bg{pointer-events:none;z-index:0}
+.gameSelection{z-index:20;pointer-events:auto}
+.versionSelector{z-index:22}
+.dropdownMenu{z-index:30}
+.dropdownMenu[hidden]{display:none!important}
+.dropdownOptions{z-index:31}
+a.playButton{z-index:22;pointer-events:auto}
+a.playButton[aria-disabled="true"]{pointer-events:none;opacity:.45}
