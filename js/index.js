@@ -4,6 +4,14 @@ const versions = {
     name: "26.2",
     url: "https://verybrobro.github.io/Eaglercraft-26.2/",
     icon: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/c3/Expressionless_Sulfur_Face.png/revision/latest/scale-to-width-down/62?cb=20260415024809"
+  }, {
+    name: "1.5.2",
+    url: "https://sd592g.github.io/zj684od4lfg/",
+    icon: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/2d/Redstone_Ore_Texture_Update_Revision_1.png/revision/latest?cb=20210615182702"
+  }, {
+    name: "1.8.8",
+    url: "https://unblockedgames88.gitlab.io/e1/eaglercraft188/",
+    icon: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e6/GuardianFace.png/revision/latest?cb=20200223055028"
   }],
   modded: [],
   mobile: [],
