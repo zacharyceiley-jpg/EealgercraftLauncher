@@ -17,6 +17,10 @@ const versions = {
     url: "https://minecraft-eaglercraft.github.io/go/minecraft-beta/",
     icon: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/05/HumanFace.png/revision/latest?cb=20110727224631"
   }, {
+    name: "26.3",
+    url: "https://zacharyceiley-jpg.github.io/ealgercraft-26.3/",
+    icon: "https://minecraft.wiki/images/thumb/Straw_Bed_%28N%29_JE1.png/150px-Straw_Bed_%28N%29_JE1.png?0c1fa"
+  }, {
     name: "1.21.11",
     url: "https://zacharyceiley-jpg.github.io/ealgercraft-1.21.11/",
     icon: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d3/ZautilusBody.png/revision/latest/scale-to-width-down/64?cb=20251030025755"
