@@ -16,6 +16,10 @@ const versions = {
     name: "BETA",
     url: "https://minecraft-eaglercraft.github.io/go/minecraft-beta/",
     icon: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/05/HumanFace.png/revision/latest?cb=20110727224631"
+  }, {
+    name: "1.21.11",
+    url: "https://zacharyceiley-jpg.github.io/ealgercraft-1.21.11/",
+    icon: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d3/ZautilusBody.png/revision/latest/scale-to-width-down/64?cb=20251030025755"
   }],
   modded: [],
   mobile: [],
@@ -103,7 +107,6 @@ document.addEventListener("click", event => {
   }
 });
 
-// Keep the category list available for future versions without changing its UI.
 categoryItems.forEach(item => {
   item.addEventListener("click", () => {
     if (typeof closeInfoPage === "function") closeInfoPage();
