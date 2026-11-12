@@ -25,6 +25,10 @@ const versions = {
     url: "https://zacharyceiley-jpg.github.io/ealgercraft-1.21.11/",
     icon: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d3/ZautilusBody.png/revision/latest/scale-to-width-down/64?cb=20251030025755"
   }, {
+    name: "1.13.2",
+    url: "https://zacharyceiley-jpg.github.io/ealgercraft-1.13/",
+    icon: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/0d/DolphinFace.png/revision/latest?cb=20221004203638"
+  }, {
     name: "1.20.6",
     url: "https://zacharyceiley-jpg.github.io/ealgercraft-1.20.6/",
     icon: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/ca/SnifferFace.png/revision/latest?cb=20230305034256"
