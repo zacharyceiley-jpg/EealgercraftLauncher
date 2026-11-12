@@ -29,9 +29,9 @@ const versions = {
     url: "https://zacharyceiley-jpg.github.io/ealgercraft-1.13/",
     icon: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/0d/DolphinFace.png/revision/latest?cb=20221004203638"
   }, {
-    name: "1.20.6",
-    url: "https://zacharyceiley-jpg.github.io/ealgercraft-1.20.6/",
-    icon: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/ca/SnifferFace.png/revision/latest?cb=20230305034256"
+    name: "1.15.2",
+    url: "https://zacharyceiley-jpg.github.io/ealgercraft-buzzybees-1.15.2/",
+    icon: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/ed/BeeFace.png/revision/latest?cb=20190822170328"
   }],
   modded: [],
   mobile: [],
